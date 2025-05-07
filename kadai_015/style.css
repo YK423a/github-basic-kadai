@@ -1,10 +1,10 @@
-span .blue{
+.blue {
     color:skyblue;
 }
-span .pink{
+.pink {
     color:rgb(255, 192, 203);
 }
-.basic h2 {
+.pink h2 {
     color:rgb(255, 192, 203);
 }
 .blue h2 {
@@ -20,14 +20,15 @@ google-fonts {
   }
 h1 {
     font-size:2rem;
-    font-family:sans-serif;
+    font-family:'Josefin Sans', sans-serif;
     letter-spacing: 1.2em;
     text-shadow: 5px 5px 5px #333;
-    text-decoration:underline,3px,rgb(115, 115, 114);
+    border-bottom:underline,3px,rgb(115, 115, 114);
 }
 body {
     text-align: center;
+    font-family: "Arial", "Meiryo", sans-serif;
 }
-basic > p {
-    font:bold;
+#basic > p {
+    font-weight:bold;
 }
