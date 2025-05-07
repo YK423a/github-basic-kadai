@@ -1,0 +1,33 @@
+span .blue{
+    color:skyblue;
+}
+span .pink{
+    color:rgb(255, 192, 203);
+}
+.basic h2 {
+    color:rgb(255, 192, 203);
+}
+.blue h2 {
+    color:skyblue;
+}
+google-fonts {
+    
+.noto-sans-jp-<uniquifier> {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+h1 {
+    font-size:2rem;
+    font-family:sans-serif;
+    letter-spacing: 1.2em;
+    text-shadow: 5px 5px 5px #333;
+    text-decoration:underline,3px,rgb(115, 115, 114);
+}
+body {
+    text-align: center;
+}
+basic > p {
+    font:bold;
+}
