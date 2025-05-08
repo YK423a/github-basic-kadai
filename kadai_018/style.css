@@ -9,7 +9,6 @@
     width: 20%;
     background-color: #ffd9df;
     display: inline-block;
-    margin: 0 auto;
 }
 #middle {
     position: relative;
@@ -22,7 +21,6 @@
     width: 200px;
     height: 200px;
     background-color: #87ceeb;
-    margin: 0 auto;
 }
 #middle-child01 {
     position: absolute;
