@@ -36,7 +36,7 @@ h2::before {
 }
 .contents p:nth-of-type(2)::first-letter {
     font-weight: bold;
-    color:文字色はrgb(97, 206, 249);
+    color:(97, 206, 249);
 }
 .contents img{
     margin: 10px 0;
@@ -48,10 +48,10 @@ foooter {
 }
 a {
     color:rgb(255, 255, 255);
-    .link:visited {
-        color:がrgb(193, 234, 251);
+    a:visited {
+        color:rgb(193, 234, 251);
     }
-    .link:hover {
+    a:hover {
         color: rgb(245, 178, 168);
     }
 }
@@ -63,6 +63,6 @@ a {
         font-size:25px;
     }
     #parent {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
